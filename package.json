@@ -1,0 +1,14 @@
+{
+  "name": "mern-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build-app": "npm install -g concurrently",
+    "build": "concurrently \"cd backend && npm install\" \"cd frontend && npm install\"",
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "concurrently": "^8.2.1"
+  }
+}

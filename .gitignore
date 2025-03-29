@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+/backend/node_modules
+/frontend/node_modules
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+
+# Build files
+dist/
+build/
+
+# MongoDB data (if running locally)
+data/db/
+
+# React build files (frontend)
+frontend/node_modules/
+frontend/build/
+
+# Misc
+coverage/

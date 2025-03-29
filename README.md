@@ -22,6 +22,7 @@ cd task-manager
 
 #### **2️⃣ Install Dependencies**
 ```sh
+npm run build-app #will install necessary package
 npm run build # Runs both frontend & backend
 ```
 
